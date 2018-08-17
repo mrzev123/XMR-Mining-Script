@@ -1,6 +1,6 @@
 #!/bin/bash
 #Script: XMR Mining
-#Script Author : _mrzev123_
+#Script Author : _Dreyannz_
 
 #Disclaimer
 clear
@@ -12,7 +12,7 @@ echo -e "\e[94m    +#+    +:+ +#++:++#:      +#++:    +#++:      "
 echo -e "\e[94m    +#+    +#+ +#+    +#+        +#+    +#+       "
 echo -e "\e[94m    #+#    #+# #+#    #+# #+#    #+#    #+#       "
 echo -e "\e[94m    #########  ###    ###  ########     ###       "
-echo -e "\e[94m          XMR Miner Script by _mrzev123_          "
+echo -e "\e[94m          XMR Miner Script by _Dreyannz_          "
 echo -e "\e[94m                                                  "
 echo -e "\e[91m                   Disclaimer:                    "
 echo -e "\e[94m                                                  "
@@ -30,7 +30,7 @@ echo -e "\e[94m    +#+    +:+ +#++:++#:      +#++:    +#++:      "
 echo -e "\e[94m    +#+    +#+ +#+    +#+        +#+    +#+       "
 echo -e "\e[94m    #+#    #+# #+#    #+# #+#    #+#    #+#       "
 echo -e "\e[94m    #########  ###    ###  ########     ###       "
-echo -e "\e[94m          XMR Miner Script by _mrzev123_          "
+echo -e "\e[94m          XMR Miner Script by _Dreyannz_          "
 echo -e "\e[94m                                                  "
 echo -e "\e[91m                   Disclaimer:                    "
 echo -e "\e[94m                                                  "
@@ -48,7 +48,7 @@ echo -e "\e[94m    +#+    +:+ +#++:++#:      +#++:    +#++:      "
 echo -e "\e[94m    +#+    +#+ +#+    +#+        +#+    +#+       "
 echo -e "\e[94m    #+#    #+# #+#    #+# #+#    #+#    #+#       "
 echo -e "\e[94m    #########  ###    ###  ########     ###       "
-echo -e "\e[94m          XMR Miner Script by _mrzev123_          "
+echo -e "\e[94m          XMR Miner Script by _Dreyannz_          "
 echo -e "\e[94m                                                  "
 echo -e "\e[91m                   Disclaimer:                    "
 echo -e "\e[94m                                                  "
@@ -65,7 +65,7 @@ echo -e "\e[94m    +#+    +:+ +#++:++#:      +#++:    +#++:      "
 echo -e "\e[94m    +#+    +#+ +#+    +#+        +#+    +#+       "
 echo -e "\e[94m    #+#    #+# #+#    #+# #+#    #+#    #+#       "
 echo -e "\e[94m    #########  ###    ###  ########     ###       "
-echo -e "\e[94m          XMR Miner Script by _mrzev123_          "
+echo -e "\e[94m          XMR Miner Script by _Dreyannz_          "
 echo -e "\e[94m                                                  "
 echo -e "\e[93m          Running Anti-Abuse Parameters           "
 echo -e "\e[94m                                                  "
@@ -82,7 +82,7 @@ if [[ "$NUMCORE" = '1' ]];
 	echo -e "\e[94m    +#+    +#+ +#+    +#+        +#+    +#+       "
 	echo -e "\e[94m    #+#    #+# #+#    #+# #+#    #+#    #+#       "
 	echo -e "\e[94m    #########  ###    ###  ########     ###       "
-	echo -e "\e[94m          XMR Miner Script by _mrzev123_          "
+	echo -e "\e[94m          XMR Miner Script by _Dreyannz_          "
 	echo -e "\e[94m                                                  "
 	echo -e "\e[91m               You Only Have 1 vCPU               "
 	echo -e "\e[94m                                                  "
@@ -96,7 +96,7 @@ if [[ "$NUMCORE" = '1' ]];
 	echo -e "\e[94m    +#+    +#+ +#+    +#+        +#+    +#+       "
 	echo -e "\e[94m    #+#    #+# #+#    #+# #+#    #+#    #+#       "
 	echo -e "\e[94m    #########  ###    ###  ########     ###       "
-	echo -e "\e[94m          XMR Miner Script by _mrzev123_          "
+	echo -e "\e[94m          XMR Miner Script by _Dreyannz_          "
 	echo -e "\e[94m                                                  "
 	echo -e "\e[91m             XMR Miner Script Stopped             "
 	echo -e "\e[0m                                                  "
@@ -118,7 +118,7 @@ echo -e "\e[94m    +#+    +:+ +#++:++#:      +#++:    +#++:      "
 echo -e "\e[94m    +#+    +#+ +#+    +#+        +#+    +#+       "
 echo -e "\e[94m    #+#    #+# #+#    #+# #+#    #+#    #+#       "
 echo -e "\e[94m    #########  ###    ###  ########     ###       "
-echo -e "\e[94m          XMR Miner Script by _mrzev123_          "
+echo -e "\e[94m          XMR Miner Script by _Dreyannz_          "
 echo -e "\e[94m                                                  "
 echo -e "\e[93m          Please Input Necessary Details          "
 echo -e "\e[94m                                                  "
@@ -147,7 +147,7 @@ echo -e "\e[94m    #+#    #+# #+#    #+# #+#    #+#    #+#       "
 echo -e "\e[94m    #########  ###    ###  ########     ###       "
 echo -e "\e[94m          XMR Miner Script by _mrzev123_          "
 echo -e "\e[94m                                                  "
-read -p "            Worker Name     : " -e -i MinerName:your@email.com WorkerName
+read -p "            Worker Name     : " -e -i Miner:your@email.com WorkerName
 clear
 echo -e "                                                        "
 echo -e "\e[94m    :::::::::  :::::::::   ::::::::  :::   :::    "
@@ -188,7 +188,7 @@ echo -e "\e[94m     Worker Name     : $WorkerName"
 echo -e "\e[94m     vCPU Usage      : $CPU"
 echo -e "\e[94m     Thread/s Usage  : $THREADS"
 echo -e "\e[93m                                                  "
-read -p "       Please Confirm The Details [y/n] : " answer
+read -p "       Please Confirm The Details [y/n] : " -e -i y answer
 case ${answer:0:1} in
 y|Y )
 clear
